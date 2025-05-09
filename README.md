@@ -1,19 +1,11 @@
 # Act8_android_1092
 
-A new Flutter project created with FlutLab - https://flutlab.io
+![image](https://github.com/user-attachments/assets/e28b77f4-c045-4608-aa9c-a94bd3070157)
 
-## Getting Started
+![image](https://github.com/user-attachments/assets/640431cc-b038-454c-a833-d3d488c5dfa2)
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://github.com/user-attachments/assets/ac3c64b7-9915-4418-b0e6-efa4a69bc8db)
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+![image](https://github.com/user-attachments/assets/4f767d73-3c1f-43d4-834d-6d5a4245d391)
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Getting Started: FlutLab - Flutter Online IDE
-
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+![image](https://github.com/user-attachments/assets/aacd9b4a-c961-4ba1-a0f8-080eec564af8)
