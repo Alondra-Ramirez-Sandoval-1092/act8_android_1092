@@ -99,7 +99,7 @@ class _ButtonAnimationState extends State<ButtonAnimation>
                       child: Align(
                         child: animationComplete == false
                             ? Text(
-                                "Download",
+                                "Dr. Derek Sanchez",
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 16),
                               )
