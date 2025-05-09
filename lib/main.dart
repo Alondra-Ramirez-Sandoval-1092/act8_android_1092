@@ -1,41 +1,31 @@
+import 'package:ramirezrutas/ButtonAnimation.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() =>
+    runApp(MaterialApp(debugShowCheckedModeBanner: false, home: HomePage()));
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      // Application name
-      title: 'Flutter Hello World',
-      // Application theme data, you can set the colors for the application as
-      // you want
-      theme: ThemeData(
-        // useMaterial3: false,
-        primarySwatch: Colors.blue,
-      ),
-      // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  final String title;
-  const MyHomePage({super.key, required this.title});  
-
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        // The title text which will be shown on the action bar
-        title: Text(title),
-      ),
-      body: Center(
-        child: Text(
-          'Hello, World!',
+      body: Container(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              // Botón JINSTAR: verde menta a morado amatista
+              ButtonAnimation(Color(0xff65ec9b), Color(0xFF42C777)),
+              const SizedBox(height: 20),
+              // Solo verde menta
+              ButtonAnimation(Color(0xFF42C777), Color(0xff41a96b)),
+              const SizedBox(height: 20),
+              // Solo morado amatista
+              ButtonAnimation(Color(0xffb053d7), Color(0xFF9B59B6)),
+              const SizedBox(height: 20),
+              // Combinación invertida
+              ButtonAnimation(Color(0xffc864f2), Color(0xffb053d7)),
+            ],
+          ),
         ),
       ),
     );
